@@ -88,7 +88,6 @@ router.get("/camera", async (req, res) => {
 router.get("/user-camera/:id", async (req, res) => {
   try {
     const result = await UserCamerasService.getUserCameras(req.params.id);
-    console.log
     return res.status(200).send({ result });
   } catch (error) {
     return res.status(500).send(error.message);
