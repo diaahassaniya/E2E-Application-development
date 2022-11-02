@@ -1,0 +1,22 @@
+{
+    "rules": {
+        "no-console": 1,
+        "no-debugger": 1,
+        "no-dupe-keys": 1,
+        "no-empty": 1,
+        "no-return-await": 1,
+        "no-unused-expressions": 1,
+        "no-undef": 1,
+        "no-unused-vars": 1,
+        "no-mixed-requires": 1,
+        "global-require": 1
+        
+      },
+      "parserOptions": {
+        "ecmaVersion": 2018
+        },
+        "env": {
+            "es6": true,
+            "node": true
+        }
+}
