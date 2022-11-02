@@ -54,7 +54,7 @@ const initRolesOfTheUsers = async () => {
 
 //Creating the tabels from models
 sequelize
-  .sync({ force: true, alter: true })
+  .sync({ force: false, alter: true })
   .then(() => {
     console.log("________________Tables created successfully!________________");
     initRolesOfTheUsers();
