@@ -23,7 +23,7 @@ update MySQL DB configuration according to yours from config file
 #Run
 #npm start
 1. create user from the UI then you can login as a user
-2. in users table update the role_id to 1 so the updated user will be as admin
+2. in users table update the role_id to 1 so the updated user will be as admin and you can see the user in the main page of the UI
 
 ## Overview
 This is a mini app for a cameras monitaring system:
